@@ -1,0 +1,19 @@
+{
+	"name": "goldprocessing",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "datamedallionbronze",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "gold/processing",
+				"fileSystem": "newdatalakemedallion33"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

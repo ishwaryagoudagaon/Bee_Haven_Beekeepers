@@ -1,0 +1,32 @@
+{
+	"name": "oldtonewcopy1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "oldlake",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "oldlakecontainer33"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "timestamp",
+				"type": "String"
+			},
+			{
+				"name": "flow",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,15 @@
+{
+	"name": "datafactoryed09",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "germanywestcentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "08b1cbbd-e23e-40bc-b4f8-c21da61da3e4",
+		"tenantId": "1f7dd01b-38e7-44fb-93bb-2414a14127d7"
+	}
+}
