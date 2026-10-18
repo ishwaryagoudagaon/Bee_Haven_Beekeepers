@@ -98,7 +98,7 @@ The `bronzenewmetadata` pipeline orchestrates the data movement and notebook pro
 
 ## Azure implementation screenshots
 
-The relevant portal screenshots in `image` folder
+The relevant portal screenshots in `image` folder and data analysis for flow , humidity , temperature and weight in image/graph path .
 
 ## Tech stack
 
